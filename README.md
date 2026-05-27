@@ -44,52 +44,9 @@ Designed with rich aesthetics, sleek glassmorphism, responsive grids, custom-eng
 * **Frontend Experience:** React, Vite, TailwindCSS, Lucide Icons, Canvas API, Recharts, React Intersection Observer.
 * **DevOps & Infrastructure:** Docker containerization, Git CI/CD pipelines, secure local environment config management.
 
----
-
-## 🚀 Local Setup & Installation
-
-### Prerequisites
-* Ensure you have [Node.js](https://nodejs.org/) installed (v18+ recommended)
-* A package manager like `npm` (packaged with Node)
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Anubhav2808GIT/anubhav-portfolio.git
-cd anubhav-portfolio
-```
-
-### 2. Install Dependencies
-```bash
-npm install
-```
-
-### 3. Setup Environment Variables
-Create a `.env` file in the root directory to support contact form submissions:
-```env
-# Web3Forms access key for inbox delivery (obtain free key at https://web3forms.com)
-VITE_WEB3FORMS_ACCESS_KEY=your_access_key_here
-```
-
-### 4. Run Locally (Development Server)
-```bash
-npm run dev
-```
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the application with hot module reloading (HMR).
-
-### 5. Build for Production
-```bash
-npm run build
-```
-The optimized bundle will be compiled inside the `/dist` directory, ready to be deployed on static hosting providers (Vercel, Netlify, GitHub Pages, etc.).
 
 ---
 
-## 🔒 Security & Best Practices
-* **Zero Secret Leakage:** Local credentials, keys, and environment overrides are strictly isolated from the repository using advanced `.gitignore` patterns.
-* **Performance-First Assets:** High-performance SVG layouts rather than heavy raster icons ensure standard Google PageSpeed scores remain above 95.
-* **Lightweight Bundle:** Fast load speeds on slow networks by stripping large libraries and managing custom micro-animations natively in Tailwind configurations and raw CSS keyframes.
-
----
 
 ## 📄 License
 This project is licensed under the MIT License. Feel free to use and adapt this system portfolio for your personal showcases.

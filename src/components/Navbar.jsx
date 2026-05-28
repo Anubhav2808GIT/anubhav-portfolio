@@ -94,8 +94,8 @@ export default function Navbar({ scrollY }) {
             <LinkedinIcon size={18} />
           </a>
           <a
-            href="/resume.pdf"
-            download
+            href="/AnubhavSharma_Resume.pdf"
+            download="AnubhavSharma_Resume.pdf"
             className="btn-primary text-xs py-2 px-4 gap-1.5"
           >
             <Download size={14} />
@@ -137,7 +137,7 @@ export default function Navbar({ scrollY }) {
             <a href="https://linkedin.com/in/anubhav-sharma-967292202" target="_blank" rel="noopener noreferrer" className="p-2 text-slate-400 hover:text-[#0077b5]">
               <LinkedinIcon size={18} />
             </a>
-            <a href="/resume.pdf" download className="btn-primary text-xs py-2 px-4 ml-auto">
+            <a href="/AnubhavSharma_Resume.pdf" download="AnubhavSharma_Resume.pdf" className="btn-primary text-xs py-2 px-4 ml-auto">
               <Download size={14} /> Resume
             </a>
           </div>

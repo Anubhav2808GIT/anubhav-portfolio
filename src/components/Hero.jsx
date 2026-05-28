@@ -189,7 +189,7 @@ export default function Hero() {
           <a href="#projects" className="btn-primary text-sm px-7 py-3">
             View Projects <ChevronRight size={16} />
           </a>
-          <a href="/resume.pdf" download className="btn-secondary text-sm px-7 py-3">
+          <a href="/AnubhavSharma_Resume.pdf" download="AnubhavSharma_Resume.pdf" className="btn-secondary text-sm px-7 py-3">
             <Download size={15} /> Download Resume
           </a>
           <a href="#contact" className="btn-secondary text-sm px-7 py-3">

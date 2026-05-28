@@ -66,8 +66,8 @@ export default function ResumeSection() {
                 {/* CTA buttons */}
                 <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                   <a
-                    href="/resume.pdf"
-                    download="Anubhav_Sharma_Resume.pdf"
+                    href="/AnubhavSharma_Resume.pdf"
+                    download="AnubhavSharma_Resume.pdf"
                     className="btn-primary"
                     id="resume-download-btn"
                   >

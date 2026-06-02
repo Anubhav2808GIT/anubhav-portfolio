@@ -11,6 +11,7 @@ import Achievements from './components/Achievements'
 import ResumeSection from './components/ResumeSection'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   const [scrollY, setScrollY] = useState(0)
@@ -49,6 +50,9 @@ function App() {
         <Contact />
         <Footer />
       </div>
+
+      {/* Vercel Web Analytics tracking */}
+      <Analytics />
     </div>
   )
 }
